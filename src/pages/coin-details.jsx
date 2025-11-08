@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { useParams } from "react-router";
+import Spinner from "../components/Spinner";
 const API_URL = import.meta.env.VITE_COIN_API_URL;
 
 const CoinDetailsPage = () => {
@@ -32,7 +33,7 @@ const CoinDetailsPage = () => {
       <h1 className="coin-details-title">
         {coin ? `${coin.name} (${coin.symbol})` : "Coin Details"}
       </h1>
-      {loading && <p>Loading...</p>}
+      {loading && <Spinner />}
       {error && <p className="error">❌ {error}</p>}
       {!loading && !error && (
         <>
@@ -113,6 +114,7 @@ const CoinDetailsPage = () => {
           </div>
         </>
       )}
+      {!loading && !error && !coin && <p>No Data Found</p>}
     </div>
   );
 };
