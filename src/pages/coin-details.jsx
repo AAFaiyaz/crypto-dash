@@ -84,7 +84,7 @@ const CoinDetailsPage = () => {
             </h4>
           </div>
 
-          <CoinChart />
+          <CoinChart coinId={coin.id} />
 
           <div className="coin-details-links">
             {coin.links.homepage[0] && (
