@@ -12,7 +12,7 @@ const Spinner = ({ color = "blue", size = "150" }) => {
         color={color}
         size={size}
         cssOverride={override}
-        aria-label="Loadin..."
+        aria-label="Loading..."
       />
     </div>
   );
