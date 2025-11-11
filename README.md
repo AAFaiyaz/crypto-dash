@@ -17,16 +17,6 @@
 
 ---
 
-## 🖼️ Preview
-
-> *Replace the image link below once you upload your screenshot.*
-
-
----
-
-
----
-
 ## 📖 About Crypto Dash
 
 Crypto Dash is a simple, clean, and responsive **React application** that displays **live cryptocurrency market data** using the **CoinGecko API**.
