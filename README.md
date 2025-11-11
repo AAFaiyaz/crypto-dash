@@ -21,3 +21,58 @@
 
 > *Replace the image link below once you upload your screenshot.*
 
+
+---
+
+
+---
+
+## 📖 About Crypto Dash
+
+Crypto Dash is a simple, clean, and responsive **React application** that displays **live cryptocurrency market data** using the **CoinGecko API**.
+
+You can:
+
+✅ View the **top cryptocurrencies** by market cap  
+✅ **Search** by name or symbol  
+✅ **Sort** by price, market cap, or 24-hour change  
+✅ Watch **price trends** over time (chart feature optional)
+
+This project was built for learning purposes — focusing on **React Hooks, state management, and external API integration**.
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|--------|-------------|
+| Live Market Data | Refreshes coin info in real time |
+| Search & Filter | Quickly find any crypto by name or symbol |
+| Sorting Options | Sort by price, market cap, or daily change |
+| Responsive UI | Works on desktop & mobile screens |
+| Clean Design | Tailwind-based modern UI |
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools Used |
+|--------|------------|
+| Frontend | React + Vite |
+| UI Styling | Tailwind CSS |
+| API | CoinGecko Market Data API |
+| Deployment | Vercel |
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/AAFaiyaz/crypto-dash.git
+cd crypto-dash
+npm install
+npm run dev
+
+
+
+
